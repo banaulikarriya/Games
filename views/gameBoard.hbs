@@ -1,0 +1,73 @@
+<!-- Breadcrumbs-->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+    </li>
+    <li class="breadcrumb-item active">Game Board</li>
+</ol>
+
+<!-- Page Content -->
+<hr>
+
+<div class="container">
+    <div class="card mb-12">
+        <div class="card-header">Game Board {{this.tournamentName}}</div>
+            <div class="card-body">
+            {{#if err}}
+            <div class="alert alert-danger">{{err}}</div>
+            {{/if}} 
+            {{#if msg}}
+            <div class="alert alert-success">{{msg}}</div>
+            {{/if}}
+            <form method="post" action="{{this.URL}}filterGameBord/">
+                <div class="form-group">
+                     <div class="form-row">
+                        <div class="col-md-4">
+                            <div class="form-label-group">
+                                <select class="form-control" id="tournamentId" name="tournamentId">
+                                    <option value="">Select tournament</option>
+                                    {{# each this.tournamentList }}
+                                    <option value="{{this._id}}">{{this.name}}</option>
+                                    {{/each}}
+                                </select>               
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary btn-block">Filter</button>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Game</th>
+                      <th>Date</th>
+                      <th>Score</th>
+                      <th>GameResult</th>
+                      <th class="won">Winner Team</th>
+                      <th>Add Result</th>
+                      <th>Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{# each gameList }}
+                    <tr>
+                    <td>{{ this.team1.teamName }} vs {{ this.team2.teamName }}</td>
+                    <td>{{ this.gameDate }}</td>
+                    <td>{{ this.team1Score }} - {{ this.team2Score }}</td>
+                    <td>{{ this.gameResult }}</td>
+                    <td class="won">{{ this.winTeam.teamName }}</td>
+                    <td><a href="/game/{{ this._id }}"><button type="button" class="btn btn-info btn-xs">Play/Add Result</button></a></td>
+                    <td><a href="/removeGame/{{ this._id }}"><button type="button" class="btn btn-danger btn-xs">Delete</button></a></td>
+                    </tr>
+                    {{/each}}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+    </div>
+
+</div>

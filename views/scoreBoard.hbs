@@ -1,0 +1,65 @@
+<!-- Breadcrumbs-->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+    </li>
+    <li class="breadcrumb-item active">Score Board</li>
+</ol>
+
+<!-- Page Content -->
+<hr>
+
+<div class="container">
+    <div class="card mb-12">
+        <div class="card-header">Score Board {{this.tournamentName}}</div>
+        <div class="card-body">
+            {{#if err}}
+            <div class="alert alert-danger">{{err}}</div>
+            {{/if}} 
+            {{#if msg}}
+            <div class="alert alert-success">{{msg}}</div>
+            {{/if}}
+            <form method="post" action="{{this.URL}}filterScoreBord/">
+                <div class="form-group">
+                     <div class="form-row">
+                        <div class="col-md-4">
+                            <div class="form-label-group">
+                                <select class="form-control" id="tournamentId" name="tournamentId">
+                                    <option value="">Select tournament</option>
+                                    {{# each this.tournamentList }}
+                                    <option value="{{this._id}}">{{this.name}}</option>
+                                    {{/each}}
+                                </select>               
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary btn-block">Filter</button>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th class="won">Score</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{# each score }}
+                <tr>
+                <td>{{ this.team }}</td>
+                <td>{{ this.finalScore }}</td>   
+                </tr>
+                {{/each}}
+                </tbody>
+            </table>
+            </div>
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+    </div>
+
+</div>

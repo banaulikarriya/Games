@@ -1,0 +1,915 @@
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b30"), 
+    "gameDate" : "4-12-2018", 
+    "team1Score" : NumberInt(3), 
+    "team2Score" : NumberInt(10), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2f"), 
+    "gameResult" : "team 6 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2a"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2f"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.931+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:01:03.641+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b31"), 
+    "gameDate" : "6-12-2018", 
+    "team1Score" : NumberInt(10), 
+    "team2Score" : NumberInt(3), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2b"), 
+    "gameResult" : "team 2 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2b"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2e"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.933+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:08:26.027+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b32"), 
+    "gameDate" : "8-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(1), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2d"), 
+    "gameResult" : "team 4 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2c"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2d"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.935+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:08:39.922+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b33"), 
+    "gameDate" : "10-12-2018", 
+    "team1Score" : NumberInt(2), 
+    "team2Score" : NumberInt(6), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2e"), 
+    "gameResult" : "team 5 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2a"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2e"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.937+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:00:43.632+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b34"), 
+    "gameDate" : "12-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2f"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2d"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.939+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.939+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b35"), 
+    "gameDate" : "14-12-2018", 
+    "team1Score" : NumberInt(1), 
+    "team2Score" : NumberInt(3), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2c"), 
+    "gameResult" : "team 3 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2b"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2c"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.941+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:04:26.499+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b36"), 
+    "gameDate" : "16-12-2018", 
+    "team1Score" : NumberInt(2), 
+    "team2Score" : NumberInt(2), 
+    "winTeam" : null, 
+    "gameResult" : "drow", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2a"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2d"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.943+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:00:26.567+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b37"), 
+    "gameDate" : "18-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2e"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2c"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.946+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.946+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b38"), 
+    "gameDate" : "20-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2f"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2b"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.948+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.948+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b39"), 
+    "gameDate" : "22-12-2018", 
+    "team1Score" : NumberInt(3), 
+    "team2Score" : NumberInt(1), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2a"), 
+    "gameResult" : "team 1 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2a"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2c"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.950+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:00:12.584+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b3a"), 
+    "gameDate" : "24-12-2018", 
+    "team1Score" : NumberInt(3), 
+    "team2Score" : NumberInt(1), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2d"), 
+    "gameResult" : "team 4 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2d"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2b"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.953+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:36:26.818+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b3b"), 
+    "gameDate" : "26-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2e"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2f"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.955+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.955+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b3c"), 
+    "gameDate" : "28-12-2018", 
+    "team1Score" : NumberInt(2), 
+    "team2Score" : NumberInt(3), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2b"), 
+    "gameResult" : "team 2 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2a"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2b"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.958+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:59.680+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b3d"), 
+    "gameDate" : "30-12-2018", 
+    "team1Score" : NumberInt(2), 
+    "team2Score" : NumberInt(3), 
+    "winTeam" : ObjectId("5c03bb073b0fce32dcb08b2f"), 
+    "gameResult" : "team 6 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2c"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2f"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.961+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:36:03.216+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b3e"), 
+    "gameDate" : "1-1-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03bb073b0fce32dcb08b2d"), 
+    "team2" : ObjectId("5c03bb073b0fce32dcb08b2e"), 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "createdAt" : ISODate("2018-12-02T10:59:19.963+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.963+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803274d"), 
+    "gameDate" : "4-12-2018", 
+    "team1Score" : NumberInt(1), 
+    "team2Score" : NumberInt(2), 
+    "winTeam" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "gameResult" : "team 10 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.618+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:59.991+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803274e"), 
+    "gameDate" : "6-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.621+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.621+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803274f"), 
+    "gameDate" : "8-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.624+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.624+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032750"), 
+    "gameDate" : "10-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.626+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.626+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032751"), 
+    "gameDate" : "12-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.630+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.630+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032752"), 
+    "gameDate" : "14-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.633+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.633+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032753"), 
+    "gameDate" : "16-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.636+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.636+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032754"), 
+    "gameDate" : "18-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.638+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.638+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032755"), 
+    "gameDate" : "20-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.640+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.640+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032756"), 
+    "gameDate" : "22-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.642+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.642+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032757"), 
+    "gameDate" : "24-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.645+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.645+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032758"), 
+    "gameDate" : "26-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.648+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.648+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032759"), 
+    "gameDate" : "28-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.651+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.651+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803275a"), 
+    "gameDate" : "30-12-2018", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.654+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.654+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803275b"), 
+    "gameDate" : "1-1-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.657+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.657+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803275c"), 
+    "gameDate" : "3-2-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.659+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.659+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803275d"), 
+    "gameDate" : "8-3-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.661+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.661+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803275e"), 
+    "gameDate" : "7-4-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.666+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.666+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803275f"), 
+    "gameDate" : "10-5-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.668+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.668+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032760"), 
+    "gameDate" : "11-6-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.670+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.670+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032761"), 
+    "gameDate" : "14-7-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.671+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.671+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032762"), 
+    "gameDate" : "15-8-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.673+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.673+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032763"), 
+    "gameDate" : "17-9-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.675+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.675+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032764"), 
+    "gameDate" : "20-10-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.678+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.678+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032765"), 
+    "gameDate" : "21-11-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.681+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.681+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032766"), 
+    "gameDate" : "24-12-2019", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.684+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.684+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032767"), 
+    "gameDate" : "25-1-2020", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.685+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.685+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032768"), 
+    "gameDate" : "27-2-2020", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.688+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.688+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032769"), 
+    "gameDate" : "31-3-2020", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.691+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.691+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803276a"), 
+    "gameDate" : "1-5-2020", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.692+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.692+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803276b"), 
+    "gameDate" : "3-7-2020", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.695+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.695+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803276c"), 
+    "gameDate" : "4-9-2020", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.697+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.697+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803276d"), 
+    "gameDate" : "7-11-2020", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.700+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.700+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803276e"), 
+    "gameDate" : "9-1-2021", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.702+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.702+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803276f"), 
+    "gameDate" : "13-3-2021", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.704+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.704+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032770"), 
+    "gameDate" : "13-5-2021", 
+    "team1Score" : NumberInt(2), 
+    "team2Score" : NumberInt(4), 
+    "winTeam" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "gameResult" : "team 3 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.705+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:32:38.845+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032771"), 
+    "gameDate" : "15-7-2021", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.707+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.707+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032772"), 
+    "gameDate" : "16-9-2021", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.708+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.708+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032773"), 
+    "gameDate" : "19-11-2021", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.711+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.711+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032774"), 
+    "gameDate" : "21-1-2022", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.715+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.715+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032775"), 
+    "gameDate" : "25-3-2022", 
+    "team1Score" : NumberInt(2), 
+    "team2Score" : NumberInt(4), 
+    "winTeam" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "gameResult" : "team 2 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.718+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:30:28.841+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032776"), 
+    "gameDate" : "25-5-2022", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.720+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.720+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032777"), 
+    "gameDate" : "27-7-2022", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.721+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.721+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032778"), 
+    "gameDate" : "28-9-2022", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "team2" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.723+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.723+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032779"), 
+    "gameDate" : "1-12-2022", 
+    "team1Score" : NumberInt(0), 
+    "team2Score" : NumberInt(0), 
+    "winTeam" : null, 
+    "gameResult" : "", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "team2" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "createdAt" : ISODate("2018-12-02T11:29:35.725+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.725+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c2ec9f4df232e803277d"), 
+    "gameDate" : "4-12-2018", 
+    "team1Score" : NumberInt(10), 
+    "team2Score" : NumberInt(5), 
+    "winTeam" : ObjectId("5c03c2ec9f4df232e803277b"), 
+    "gameResult" : "team 2 won", 
+    "status" : true, 
+    "team1" : ObjectId("5c03c2ec9f4df232e803277b"), 
+    "team2" : ObjectId("5c03c2ec9f4df232e803277c"), 
+    "tournamentId" : ObjectId("5c03c2629f4df232e803277a"), 
+    "createdAt" : ISODate("2018-12-02T11:33:00.317+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:35:42.561+0000"), 
+    "__v" : NumberInt(0)
+}

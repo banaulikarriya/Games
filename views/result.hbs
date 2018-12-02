@@ -1,0 +1,107 @@
+<!-- Breadcrumbs-->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+    </li>
+    <li class="breadcrumb-item active">Enter Result</li>
+</ol>
+
+<!-- Page Content -->
+<hr>
+
+<div class="container">
+    <div class="card mb-12">
+        <div class="card-header">Team Details</div>
+        <div class="card-body">
+            {{#if err}}
+            <div class="alert alert-danger">{{err}}</div>
+            {{/if}} {{#if msg}}
+            <div class="alert alert-success">{{msg}}</div>
+            {{/if}}
+            <form method="post" action="../saveGameResult/{{this._id}}">
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label>Team1: </label>
+                        <div class="form-label-group">
+                            <input type="text" class="form-control" placeholder="Tournament Name" disabled value="{{this.team1.teamName}}">
+                            <input type="hidden" class="form-control" placeholder="Tournament Name" name="team1" value="{{this.team1._id}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label>Team2: </label>
+                        <div class="form-label-group">
+                            <input type="text" class="form-control" placeholder="Tournament Name" disabled value="{{this.team2.teamName}}">
+                            <input type="hidden" class="form-control" placeholder="Tournament Name" name="team2" value="{{this.team2._id}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label>Tournament: </label>
+                        <div class="form-label-group">
+                            <input type="text" class="form-control" placeholder="Tournament Name" disabled value="{{this.tournamentId.name}}">
+                            <input type="hidden" class="form-control" placeholder="Tournament Name" name="tournamentId" value="{{this.tournamentId._id}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label>Date: </label>
+                        <div class="form-label-group">
+                            <input type="text" class="form-control" placeholder="Tournament Name" name="gameDate" value="{{this.gameDate}}">                  
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label>{{this.team1.teamName}} Score: </label>
+                        <div class="form-label-group">
+                            <input type="number" class="form-control" placeholder="Tournament Name" name="team1Score" value="{{this.team1Score}}">                  
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label>{{this.team2.teamName}} Score: </label>
+                        <div class="form-label-group">
+                            <input type="number" class="form-control" placeholder="Tournament Name" name="team2Score" value="{{this.team2Score}}">                  
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label>Winner Team: </label>
+                        <div class="form-label-group">
+                              <select class="form-control" id="winTeam" name="winTeam">
+                                <option value="{{this.winTeam._id}}">{{this.winTeam.teamName}}</option>
+                                <option value="{{this.team1._id}}">{{this.team1.teamName}}</option>
+                                <option value="{{this.team2._id}}">{{this.team2.teamName}}</option>
+                            </select>               
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label>Game Result: </label>
+                        <div class="form-label-group">
+                              <select class="form-control" id="gameResult" name="gameResult">
+                                <option value="{{this.gameResult}}">{{this.gameResult}}</option>
+                                <option value="drow">Drow</option>
+                                <option value="{{this.team1.teamName}} won">{{this.team1.teamName}} Won</option>
+                                <option value="{{this.team2.teamName}} won">{{this.team2.teamName}} Won</option>
+                            </select>               
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <div class="form-label-group">
+                            <button type="submit" class="btn btn-primary btn-block">Save Result</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

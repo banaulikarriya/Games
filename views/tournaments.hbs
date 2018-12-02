@@ -1,0 +1,77 @@
+<!-- Breadcrumbs-->
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+    </li>
+    <li class="breadcrumb-item active">Tournaments</li>
+</ol>
+
+<!-- Page Content -->
+<hr>
+
+<div class="container">
+    <div class="card mb-12">
+        <div class="card-header">Create Tournament</div>
+        <div class="card-body">
+            {{#if err}}
+            <div class="alert alert-danger">{{err}}</div>
+            {{/if}} 
+            {{#if msg}}
+            <div class="alert alert-success">{{msg}}</div>
+            {{/if}}
+            <form method="post" action="createTournament/">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-4">
+                            <label>Tournament Name : </label>
+                            <div class="form-label-group">
+                                <input type="text" class="form-control" placeholder="Tournament Name" name="name">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label>No Of Team:</label>
+                            <div class="form-label-group">
+                                <input type="text" class="form-control" placeholder="Number Of Team" name="NoOfTeam">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Create Tournament:</label>
+                            <div class="form-label-group">
+                                <button type="submit" class="btn btn-primary btn-block">Create Tournament</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>No of Team</th>
+                      <th>status</th>
+                      <th>Game Board</th>
+                      <th>Score Board</th>
+                      <th>Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{# each list }}
+                    <tr>
+                    <td>{{ this.name }}</td>
+                    <td>{{ this.NoOfTeam }}</td>
+                    <td>{{ this.status }}</td>
+                    <td><a href="/gameBoard/{{ this._id }}"><button type="button" class="btn btn-primary btn-xs">Create/View Game Board</button></a></td>
+                    <td><a href="/scoreBoard/{{ this._id }}"><button type="button" class="btn btn-success btn-xs">Score Board</button></a></td>
+                    <td><a href="/remove/{{ this._id }}"><button type="button" class="btn btn-danger btn-xs">Delete</button></a></td>
+                    </tr>
+                    {{/each}}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+    </div>
+
+</div>

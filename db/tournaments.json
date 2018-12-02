@@ -1,0 +1,27 @@
+{ 
+    "_id" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "status" : true, 
+    "name" : "Indian  League", 
+    "NoOfTeam" : NumberInt(6), 
+    "createdAt" : ISODate("2018-12-02T10:59:16.328+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:16.328+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "status" : true, 
+    "name" : "Indian Super League", 
+    "NoOfTeam" : NumberInt(10), 
+    "createdAt" : ISODate("2018-12-02T11:29:33.061+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:33.061+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c2629f4df232e803277a"), 
+    "status" : true, 
+    "name" : "Bana local", 
+    "NoOfTeam" : NumberInt(2), 
+    "createdAt" : ISODate("2018-12-02T11:30:42.397+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:30:42.397+0000"), 
+    "__v" : NumberInt(0)
+}

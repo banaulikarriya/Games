@@ -1,0 +1,24 @@
+{ 
+    "_id" : ObjectId("5c0189a3ea8b05025887342e"), 
+    "status" : true, 
+    "firstName" : "Riya", 
+    "lastName" : "Banaulikar", 
+    "email" : "riyabanaulikar@gmail.com", 
+    "username" : "riya", 
+    "password" : "$2a$10$9gu0gsgV2cazLfpWfrXND.y6RfoeGR.Ixe7i/p/8S3qjApwyzd826", 
+    "createdAt" : ISODate("2018-11-30T19:04:03.252+0000"), 
+    "updatedAt" : ISODate("2018-11-30T19:04:03.252+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03ba687521a949d49daf7d"), 
+    "status" : true, 
+    "firstName" : "Admin", 
+    "lastName" : "Admin", 
+    "email" : "admin@gmail.com", 
+    "username" : "admin", 
+    "password" : "$2a$10$TgP3H.U6yVMWwXNeIRLx0.qoLkuiLLDSUoCDdr1ZnmgymI6uWfILS", 
+    "createdAt" : ISODate("2018-12-02T10:56:40.374+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:56:40.374+0000"), 
+    "__v" : NumberInt(0)
+}

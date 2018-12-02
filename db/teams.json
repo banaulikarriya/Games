@@ -1,0 +1,162 @@
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b2a"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "teamName" : "team 1", 
+    "createdAt" : ISODate("2018-12-02T10:59:19.906+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.906+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b2b"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "teamName" : "team 2", 
+    "createdAt" : ISODate("2018-12-02T10:59:19.909+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.909+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b2c"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "teamName" : "team 3", 
+    "createdAt" : ISODate("2018-12-02T10:59:19.914+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.914+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b2d"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "teamName" : "team 4", 
+    "createdAt" : ISODate("2018-12-02T10:59:19.916+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.916+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b2e"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "teamName" : "team 5", 
+    "createdAt" : ISODate("2018-12-02T10:59:19.918+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.918+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03bb073b0fce32dcb08b2f"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03bb043b0fce32dcb08b29"), 
+    "teamName" : "team 6", 
+    "createdAt" : ISODate("2018-12-02T10:59:19.919+0000"), 
+    "updatedAt" : ISODate("2018-12-02T10:59:19.919+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032743"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 1", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.578+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.578+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032744"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 2", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.582+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.582+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032745"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 3", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.585+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.585+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032746"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 4", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.589+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.589+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032747"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 5", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.591+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.591+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032748"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 6", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.595+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.595+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e8032749"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 7", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.597+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.597+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803274a"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 8", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.600+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.600+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803274b"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 9", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.603+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.603+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c21f9f4df232e803274c"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c21d9f4df232e8032742"), 
+    "teamName" : "team 10", 
+    "createdAt" : ISODate("2018-12-02T11:29:35.607+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:29:35.607+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c2ec9f4df232e803277b"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c2629f4df232e803277a"), 
+    "teamName" : "team 1", 
+    "createdAt" : ISODate("2018-12-02T11:33:00.307+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:33:00.307+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c03c2ec9f4df232e803277c"), 
+    "status" : true, 
+    "tournamentId" : ObjectId("5c03c2629f4df232e803277a"), 
+    "teamName" : "team 2", 
+    "createdAt" : ISODate("2018-12-02T11:33:00.309+0000"), 
+    "updatedAt" : ISODate("2018-12-02T11:33:00.309+0000"), 
+    "__v" : NumberInt(0)
+}
